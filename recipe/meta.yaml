@@ -1,5 +1,5 @@
 {% set name = "segyio" %}
-{% set version = "1.8.3" %}
+{% set version = "1.8.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/equinor/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a563f630c959236164b5cf3317671cb0202bdb7cae4f72e71b31a7d9c40365cb
+  sha256: 1474554508595bcab066699ab74c0958dea605e8ddc70fcebdcbc257650e1370
 
 build:
   number: 0
