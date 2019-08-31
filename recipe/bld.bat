@@ -1,4 +1,4 @@
-cmake -G"%CMAKE_GENERATOR%" ^
+cmake -G"Ninja" ^
       -DBUILD_SHARED_LIBS=ON ^
       -DCMAKE_BUILD_TYPE=Release ^
       -DCMAKE_PREFIX_PATH=%PREFIX% ^
