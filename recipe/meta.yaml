@@ -18,6 +18,8 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
+    - make  # [unix]
+    - ninja  # [win]
   host:
     - python
     - pip
