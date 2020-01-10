@@ -36,6 +36,7 @@ requirements:
 test:
   imports:
     - segyio
+    - segyio._segyio
 
 about:
   home: https://github.com/equinor/segyio
