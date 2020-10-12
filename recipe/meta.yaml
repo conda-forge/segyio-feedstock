@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/equinor/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: b9b1967740f620b20325be0312d589a865c716128f5711a8928bc2cd9a881426
+  patches:
+    - patch/0001-Fix-version-string-parsing.patch
 
 build:
   number: 0

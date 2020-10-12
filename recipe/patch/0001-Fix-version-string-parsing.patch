@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 41e9d63..c20dc5f 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -33,6 +33,7 @@ elseif (EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/python/segyio/version.py)
+     # tarball was built
+     file(READ python/segyio/version.py ver-describe)
+     string(REGEX REPLACE "^version =" "" ver-describe ${ver-describe})
++    string(REGEX REPLACE "'v" "" ver-describe ${ver-describe})
+     string(REGEX REPLACE "'" "" ver-describe ${ver-describe})
+     string(STRIP ${ver-describe} ver-describe)
+     message(STATUS "Found version ${ver-describe} from segyio/version.py")
