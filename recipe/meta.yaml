@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/equinor/segyio
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: GPL
   license_file: License.md
   summary: 'Simple and fast SEG-Y I/O'
