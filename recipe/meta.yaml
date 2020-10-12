@@ -10,7 +10,7 @@ source:
   sha256: 80601d9ea32a2055a02493deaea77a5830a3cc5018e1d2e5add786e7eb9d7b75
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win and vc<14]
 
 requirements:
@@ -54,3 +54,6 @@ about:
 extra:
   recipe-maintainers:
     - jokva
+    - sveinung-r
+    - jensgm
+    - erlendhaa
