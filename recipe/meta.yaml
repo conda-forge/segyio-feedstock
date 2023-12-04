@@ -1,16 +1,16 @@
 {% set name = "segyio" %}
-{% set version = "1.9.3" %}
+{% set version = "1.9.12" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/equinor/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
+  url: https://github.com/equinor/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 1532159b3e028b466ff95d0512cf99c373f4e267264ef9072e5535ad39faf7de
 
 build:
-  number: 4
+  number: 0
   skip: True  # [win and vc<14]
 
 requirements:
